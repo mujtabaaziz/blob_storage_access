@@ -2,7 +2,7 @@ from azure.storage.blob import BlobServiceClient, PublicAccess
 
 # Connection string to your storage account
 connection_string = ""
-# connection_string = "DefaultEndpointsProtocol=https;AccountName=dlsstagall;AccountKey=GVC9vl+nR44iLO5MyVs/bWkmYXeeEKUG/JhPNIaKhiO5w4iN3WkWXUJEjjrArAOr+Sb/FIuJNN7t+AStuJVGmw==;EndpointSuffix=core.windows.net"
+
 
 # Create BlobServiceClient object
 blob_service_client = BlobServiceClient.from_connection_string(connection_string)
